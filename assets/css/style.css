@@ -28,12 +28,6 @@ a {
     text-decoration: none;
 }
 
-.hr {
-    height: 1px;
-    background-color: white;
-    width: 100%;
-}
-
 .enrollNow {
     height: 40px;
     width: 9rem;
@@ -69,23 +63,25 @@ a {
 
 
 
-.browse-top h2 {
+.browse-top h2,
+.best-education h2,
+.right-courses h2 {
     color: rgb(19, 106, 213);
     text-align: center;
     margin: auto;
 }
 
-.brose-top-cards {
+.browse-top-cards {
     padding: 0 30px;
 }
 
-.brose-top-cards .card {
+.browse-top-cards .card {
     border-radius: 10px;
     background-color: rgb(243, 247, 253);
     margin-top: 20px;
 }
 
-.brose-top-cards .card svg {
+.browse-top-cards .card svg {
     color: rgb(0, 174, 255);
     background-color: white;
     padding: 7px;
@@ -97,16 +93,20 @@ a {
     color: rgb(181, 180, 180);
 }
 
-.browse-top p,
-.become-inst p,
+
+.grey-color,
+p,
 .become-inst ul li {
     color: rgb(102, 102, 112);
 }
 
-.become-inst-row {
+.become-inst-row,
+.right-courses {
     background-color: rgb(248, 249, 250);
-    position: relative;
+}
 
+.become-inst-row {
+    position: relative;
 }
 
 .become-inst ul {
@@ -122,10 +122,12 @@ a {
     margin-right: 10px;
 }
 
-.become-inst h2 {
+.become-inst h2,
+.best-education-cards .card .card-body h5 {
     color: rgb(19, 106, 213);
 
 }
+
 
 .become-inst button {
     background-color: rgb(19, 106, 213);
@@ -135,5 +137,14 @@ a {
 .become-inst-image img {
     height: 400px;
     position: absolute;
-    bottom: 7rem;
+    bottom: 4rem;
+}
+
+
+.best-education-cards .card .card-body svg {
+    color: rgb(19, 106, 213);
+    padding: 20px;
+    border: solid rgb(210, 226, 247) 1px;
+    border-radius: 50%;
+    font-size: x-large;
 }

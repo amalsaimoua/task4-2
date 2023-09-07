@@ -7,91 +7,224 @@
     <title>منصة تعليمية</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!--     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"> -->
 </head>
 
-<body class="">
-
-    <div class="row clo-lg-12 row-bg flex align-items-center fs-12  ">
-        <div class="row flex mt-2 ms-5 ">
-            <div class="col-2 qustion flex ">
-                <i class="fa-solid fa-question text-white"></i>
+<body style="overflow-x: hidden;">
+    <!-- Start Nav & hero -->
+    <div class="row clo-lg-12 row-bg d-flex align-items-center fs-12 text-white ">
+        <div class="color-overlay"></div>
+        <div class="above-van d-flex  text-white " style="z-index: 3;">
+            <div class="col-2 qustion d-flex align-items-center justify-content-center m-auto ">
+                <i class="fa-solid fa-question text-white align-items-start"></i>
                 <a href="#">
                     <p class="text-white">Have a question?</p>
                 </a>
-
             </div>
-            <div class="col-2 phone flex ">
+            <div class="col-2 phone d-flex ">
                 <i class="fa-solid fa-phone text-white"></i>
                 <a href="#">
                     <p class="text-white">10 20 123 456</p>
                 </a>
-
             </div>
-            <div class="col-3 email flex">
+            <div class="col-3 email d-flex">
                 <i class="fa-solid fa-envelope text-white "></i>
                 <a href="#">
-                    <p class="text-white wrap">amalsaimoua@gmail.com</p>
+                    <p class="text-white">amalsaimoua@gmail.com</p>
                 </a>
             </div>
 
-            <div class="col-1 login flex pl-5">
+            <div class="col-1 login d-flex pl-5">
                 <i class="fa-solid fa-lock text-white"></i>
                 <a href="#">
                     <p class="text-white">Log In</p>
                 </a>
             </div>
-            <div class="col-1 register flex">
-                <i class="fa-solid fa-user text-white"></i>
+            <div class="col-1 register d-flex">
+                <i class="fa-solid fa-user text-white "></i>
                 <a href="#">
                     <p class="text-white">Register</p>
                 </a>
             </div>
         </div>
+        <div class="hr" style="z-index: 3; "></div>
 
-        <hr class="text-white mt-0">
-        <nav class="navbar navbar-expand-lg row-bg ">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg  ">
+            <div class="container p60 ">
+                <a class="navbar-brand text-white" href="#">Learner</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link active text-white " aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Dropdown
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Our Staff </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            <a class="nav-link text-white" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contact</a>
+                        </li>
+
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                    <button class="enrollNow text-white fs-6 " type="submit">ENROLL NOW</button>
                 </div>
             </div>
         </nav>
+        <div class="row align-items-center justify-content-center m-auto  " style="height: 300px; z-index: 3;">
+            <div class="hero clo-lg-12 column-gap-3 ">
+                <p class="text-white">WATCH THE VIDEO </p>
+                <h1 class="text-white ">
+                    Education is the Mother of Leadership</h1>
+                <button class="text-white fs-6 " type="button">EXPLORE COURSES</button>
+            </div>
+        </div>
+    </div>
+    <!-- End Nav & hero -->
+
+    <!-- Start browse Top section -->
+    <div class="browse-top ">
+        <h2 class="mt-5">Browse Top Category</h2>
+        <div class="brose-top-cards d-flex flex-wrap justify-content-around  ">
+            <div class="card border-0 ">
+                <div class="row g-0 " style="width: 300px;">
+                    <div class="col-md-4 col-md-4 d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-atom ml-2 "></i>
+                    </div>
+                    <div class="col-md-8 ">
+                        <div class="card-body ">
+                            <h5 class="card-title " style="font-weight: 100;">Science</h5>
+                            <p class="card-text"><small>1,391 courses</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card border-0 ">
+                <div class="row g-0 " style="width: 300px;">
+                    <div class="col-md-4 col-md-4 d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-briefcase ml-2 "></i>
+                    </div>
+                    <div class="col-md-8 ">
+                        <div class="card-body ">
+                            <h5 class="card-title " style="font-weight: 100;">Business</h5>
+                            <p class="card-text"><small>3,234 courses</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card border-0 ">
+                <div class="row g-0 " style="width: 300px;">
+                    <div class="col-md-4 col-md-4 d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-calculator ml-2 "></i>
+                    </div>
+                    <div class="col-md-8 ">
+                        <div class="card-body ">
+                            <h5 class="card-title " style="font-weight: 100;">Finance Accounting</h5>
+                            <p class="card-text"><small>931 courses</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card border-0 ">
+                <div class="row g-0 " style="width: 300px;">
+                    <div class="col-md-4 col-md-4 d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-pen ml-2 "></i>
+                    </div>
+                    <div class="col-md-8 ">
+                        <div class="card-body ">
+                            <h5 class="card-title " style="font-weight: 100;">Design</h5>
+                            <p class="card-text"><small>7,291 courses</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-0 ">
+                <div class="row g-0 " style="width: 300px;">
+                    <div class="col-md-4 col-md-4 d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-music ml-2 "></i>
+                    </div>
+                    <div class="col-md-8 ">
+                        <div class="card-body ">
+                            <h5 class="card-title " style="font-weight: 100;">Music</h5>
+                            <p class="card-text"><small>9,114 courses</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-0 ">
+                <div class="row g-0 " style="width: 300px;">
+                    <div class="col-md-4 col-md-4 d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-chart-pie ml-2 "></i>
+                    </div>
+                    <div class="col-md-8 ">
+                        <div class="card-body ">
+                            <h5 class="card-title " style="font-weight: 100;">Marketing</h5>
+                            <p class="card-text"><small>2,391 courses</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-0 ">
+                <div class="row g-0 " style="width: 300px;">
+                    <div class="col-md-4 col-md-4 d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-camera ml-2 "></i>
+                    </div>
+                    <div class="col-md-8 ">
+                        <div class="card-body ">
+                            <h5 class="card-title " style="font-weight: 100;">Photography</h5>
+                            <p class="card-text"><small>7,991 courses</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-0 ">
+                <div class="row g-0 " style="width: 300px;">
+                    <div class="col-md-4 col-md-4 d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-star-of-life ml-2 "></i>
+                    </div>
+                    <div class="col-md-8 ">
+                        <div class="card-body ">
+                            <h5 class="card-title " style="font-weight: 100;">Animation</h5>
+                            <p class="card-text"><small>6,491 courses</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="d-flex align-items-center justify-content-center mt-4">We have more category here. <a href="#"> Browse
+                all</a></p>
+    </div>
+    <!-- End browse Top section -->
+
+    <!-- Start become an instructor section-->
+    <div class="row ">
+
     </div>
 
+
+    <!-- End become an instructor section-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
 

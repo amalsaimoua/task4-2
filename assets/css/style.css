@@ -67,10 +67,6 @@ a {
     margin: auto;
 }
 
-/* .browse-top-cards {
-    padding: 0 30px;
-}
- */
 .browse-top-cards .card {
     border-radius: 10px;
     background-color: rgb(243, 247, 253);
@@ -103,17 +99,12 @@ p {
     color: rgb(102, 102, 112);
 }
 
-/* .light-bg-color {
-    background-color: rgb(248, 249, 250);
-
-} */
 
 .become-inst-row,
 .right-courses ,.school-news{
     background-color: rgb(248, 249, 250);
 }
 
-/* .become-inst-row, */
 .about-us-row {
     position: relative;
 }
@@ -159,13 +150,6 @@ p {
     padding: 7rem;
 }
 
-.about-us button {
-    border-radius: 30px;
-    height: 3rem;
-    width: 10rem;
-    text-align: center;
-}
-
 .buttons .learn-more-button {
     background-color: white;
     border: solid rgb(19, 106, 213) 1px;
@@ -181,7 +165,6 @@ p {
     height: 24rem;
     width: 32rem;
     position: absolute;
-    /* bottom: 49rem; */
     left: 41rem;
     top: 0;
     z-index: 3;
@@ -210,7 +193,3 @@ width: 300px;
     align-items: baseline;
     gap: 5px;
 }
-/* 
-.school-news svg{
-    color: rgb(204, 204, 204);
-} */

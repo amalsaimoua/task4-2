@@ -87,7 +87,7 @@ a {
 
 .blue-color {
     color: rgb(19, 106, 213);
-
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .blue-bg-color {
@@ -101,7 +101,9 @@ p {
 
 
 .become-inst-row,
-.right-courses ,.school-news{
+.right-courses,
+.school-news,
+.slider-section {
     background-color: rgb(248, 249, 250);
 }
 
@@ -180,16 +182,34 @@ p {
     background-color: rgb(208, 225, 247);
 }
 
-.school-news img{
-width: 300px;
+.school-news img {
+    width: 300px;
 }
 
-.school-news .card-text{
+.school-news .card-text {
     color: rgb(116, 119, 116);
 }
 
-.calender{
+.calender {
     color: rgb(204, 204, 204);
     align-items: baseline;
     gap: 5px;
+}
+
+.carousel-indicators {
+    margin-left: 14% !important;
+}
+
+.carousel-indicators .button {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: rgb(19, 106, 213) !important;
+
+}
+
+.carousel-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }

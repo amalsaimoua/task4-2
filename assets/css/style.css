@@ -136,7 +136,7 @@ a {
 }
 
 
-.about-us-image img {
+.about-us-image iframe {
     height: 24rem;
     width: 32rem;
     position: absolute;

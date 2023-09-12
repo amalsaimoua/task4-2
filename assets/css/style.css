@@ -1,11 +1,16 @@
 .row-bg {
+    width: 100vw;
     background-image: url('../img/hero.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 20px;
+    /* padding: 20px; */
     color: white;
     position: relative;
+}
+
+.above-nav svg {
+    margin: unset;
 }
 
 .color-overlay {
@@ -58,15 +63,6 @@ a {
     text-align: center;
 }
 
-
-
-.browse-top h2,
-.best-education h2,
-.right-courses h2 {
-    text-align: center;
-    margin: auto;
-}
-
 .browse-top-cards .card {
     border-radius: 10px;
     background-color: rgb(243, 247, 253);
@@ -83,28 +79,6 @@ a {
 
 .card-body p {
     color: rgb(181, 180, 180);
-}
-
-.blue-color {
-    color: rgb(19, 106, 213);
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.blue-bg-color {
-    background-color: rgb(19, 106, 213);
-}
-
-.grey-color,
-p {
-    color: rgb(102, 102, 112);
-}
-
-
-.become-inst-row,
-.right-courses,
-.school-news,
-.slider-section {
-    background-color: rgb(248, 249, 250);
 }
 
 .about-us-row {
@@ -131,12 +105,11 @@ p {
 }
 
 .become-inst-image img {
-    height: 364px;
-    width: 292px;
+    height: 100%;
     position: absolute;
     bottom: -1rem;
-    left: 56rem;
-    top: -21rem;
+    left: 58rem;
+    top: -3rem;
 }
 
 
@@ -212,4 +185,65 @@ p {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+
+.why-us-section img {
+    max-width: 450px;
+}
+
+.accordion-body img {
+    width: 190px;
+}
+
+.social-media a {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media svg {
+    color: black;
+}
+
+.projects-content p,
+.contact-content p {
+    color: rgb(137, 174, 228);
+}
+
+.pics img {
+    width: 100px;
+}
+
+.footer-section .container .row h5,
+h6 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*colors*/
+
+.light-blue-bg {
+    background-color: rgb(248, 249, 250);
+
+}
+
+.blue-color {
+    color: rgb(19, 106, 213);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blue-bg-color {
+    background-color: rgb(19, 106, 213);
+}
+
+.grey-color,
+p {
+    color: rgb(102, 102, 112);
+}
+
+.yellow-color {
+    color: rgb(255, 193, 7);
 }
